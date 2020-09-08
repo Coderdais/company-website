@@ -1,4 +1,5 @@
 import React from "react";
+import "./Navbar.css";
 import {NavLink} from "react-router-dom";
 
 const Navbar = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/home">
-                  SIN
+                  SIT SOFT. LTD
                 </NavLink>
                 <button
                   className="navbar-toggler"
@@ -27,7 +28,7 @@ const Navbar = () => {
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
                 >
-                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0 nav-menu">
                     <li className="nav-item">
                       <NavLink
                         className="nav-link active"

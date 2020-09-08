@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div>
             <Common
-            name="Welcome to Homepage"
+            name="Welcome to SIT SOFT. LTD"
             work="Works With Our Great Team"
             img ={web}
             visit="/service"

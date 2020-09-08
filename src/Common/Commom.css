@@ -1,0 +1,22 @@
+#header{
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#header a.btn-get-started{
+       color:blue;
+       font-weight: bold;
+       letter-spacing: 1px;
+       text-decoration: none;
+       padding:10px 30px;
+       border-radius: 50px;
+       border: 2px solid blue;
+       transition:0.5s ;
+      
+}
+
+#header a.btn-get-started:hover{
+    background: blue;
+    color: white;
+}
