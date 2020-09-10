@@ -12,5 +12,10 @@
     font-family: 'Times New Roman', Times, serif;
     color:black;
     font-weight: bold;
+
+}
+
+.nav-menu:active{
+    color: green;
     
 }

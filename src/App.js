@@ -9,6 +9,8 @@ import Contact from "./Contact/Contact";
 import Service from "./Service/Service";
 import Navbar from "./Navbar/Navbar";
 import Common from "./Common/Common";
+import ServiceItem from "./ServiceItem/ServiceItem";
+
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/service" component={Service}/>
           <Redirect to= "/"/>
           <Common></Common>
+          <ServiceItem></ServiceItem>
+          
         </Switch>
     
     </div>

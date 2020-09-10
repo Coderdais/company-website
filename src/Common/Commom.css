@@ -20,3 +20,16 @@
     background: blue;
     color: white;
 }
+
+/* #header .inner{
+    overflow: hidden;
+}
+
+#header .inner img{
+    transition: all 1s linear;
+}
+
+#header .inner:hover{
+    transform: scale(1.5);
+} */
+
