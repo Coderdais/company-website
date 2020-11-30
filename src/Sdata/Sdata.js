@@ -9,39 +9,28 @@ const serviceItems = [{
     "key" : "1",
     "imgSrc" : webDev,
     "tittle" : "Web Development",
-    "description": "We promise you to provide best website user experience"
+    "description": "We give you back end service and the further updating, configuration, installation, and the all website and software related help."
+},
+{   
+    "key" : "3",
+    "imgSrc" : webTrain,
+    "tittle" : "Mobile App Development",
+    "description": "We give you frontend and back end service and the further updating, configuration, installation, and the all website and software related help"
+
+},
+{   
+    "key" : "4",
+    "imgSrc" : seo,
+    "tittle" : "Search engine optimization",
+    "description": "We optimize your website to reach your client easily."
 },
 {   
     "key" : "2",
     "imgSrc" : webDes,
     "tittle" : "Web Design",
-    "description": "We promise you to provide best website user experience"
-},
-{   
-    "key" : "3",
-    "imgSrc" : seo,
-    "tittle" : "SEO",
-    "description": "We promise you to provide best website user experience"
-},
-{   
-    "key" : "4",
-    "imgSrc" : webTrain,
-    "tittle" : "Web Trainning",
-    "description": "We promise you to provide best website user experience"
-
-},
-{
-    "key" : "5",
-    "imgSrc" : aff,
-    "tittle" : "Affiliate Marketing",
-    "description": "We promise you to provide best website user experience"
-},
-{
-    "key" : "6",
-    "imgSrc" : psTrain,
-    "tittle" : "PS Trainning",
-    "description": "We promise you to provide best website user experience"
-}    
+    "description": "We give you front end service and the further updating, configuration, installation, and the all website and software related help"
+}
+  
 
 ];
 

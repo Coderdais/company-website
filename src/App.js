@@ -8,8 +8,9 @@ import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Service from "./Service/Service";
 import Navbar from "./Navbar/Navbar";
-import Common from "./Common/Common";
-import ServiceItem from "./ServiceItem/ServiceItem";
+import Footer from "./Footer/Footer";
+
+
 
 
 function App() {
@@ -18,8 +19,10 @@ function App() {
       <Navbar></Navbar>
       
         <Switch>
+          <main>
           <Route exact path="/">
             <Home></Home>
+            
           </Route>
           <Route path="/about">
             <About></About>
@@ -28,8 +31,8 @@ function App() {
           <Route path="/contact" component={Contact}/>
           <Route path="/service" component={Service}/>
           <Redirect to= "/"/>
-          <Common></Common>
-          <ServiceItem></ServiceItem>
+          
+          </main>
           
         </Switch>
     

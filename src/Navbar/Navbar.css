@@ -2,14 +2,14 @@
     color:black;
     font-weight: bold;
     font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Texturina', serif;
     font-style: italic;
 
 }
 
 .nav-menu{
     font-size:20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
     color:black;
     font-weight: bold;
 
@@ -18,4 +18,8 @@
 .nav-menu:active{
     color: green;
     
+}
+
+NavLink{
+    font-family: 'Poppins', sans-serif;;
 }

@@ -1,19 +1,28 @@
 import React from 'react';
+import About from '../About/About';
 import Common from '../Common/Common';
-import web from "../img/02.jpg";
+import Footer from '../Footer/Footer';
+import web from "../img/02.svg";
+import Service from '../Service/Service';
 
 const Home = () => {
     return (
         <div>
+        <main>
             <Common
-            name="Welcome to SIT SOFT. LTD"
-            work="Works With Our Great Team"
+            // first_name="We help to achieve your goal"
+            last_name = "Tech Solver BD"
+            work="Your product is our concern. We ensure your best experience with us"
             img ={web}
             visit="/service"
-            btnName= "Get Started"
+            btnName= "More Info"
 
             
             ></Common>
+            </main>
+            <br/>
+           <Footer/>
+
         </div>
     );
 };

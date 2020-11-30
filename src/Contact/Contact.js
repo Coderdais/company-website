@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Footer from "../Footer/Footer";
+import  "./Contact.css";
 
 const Contact = () => {
     const [data,setData] = useState({
@@ -29,8 +31,9 @@ const Contact = () => {
     }
   return (
     <div>
+    <main className="form">
       <div className="my-5">
-        <h1 className="text-center"> Our Services </h1>
+        <h1 className="text-center"> Contact With US </h1>
       </div>
       <div className="row">
         <div className="col-md-6 col-10 mx-auto">
@@ -74,7 +77,7 @@ const Contact = () => {
                 onChange= {eventHandel}
                 className="form-control"
                 id="exampleFormControlInput1"
-                placeholder="Input Your Email Address"
+                placeholder=" Email Address"
               />
             </div>
 
@@ -99,6 +102,31 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <br/> <br/> 
+      <div className="container">
+      <div className="row">
+      <div className="col-12 col-md-3 col-lg-3 tag">
+      <h6>Address</h6>
+      <p>Road No:09 <br/>House No:23 <br/>Nikunja-2</p>
+      </div>
+      <div className="col-12 col-md-1 col-lg-1"></div>
+      <br/>
+      <div className="col-12 col-md-3 col-lg-3 tag">
+      <h6>Phone</h6>
+      <p>+8801843534307</p>
+      </div>
+      <div className="col-12 col-md-1 col-lg-1"></div>
+      <br/>
+      <div className="col-12 col-md-3 col-lg-3 tag">
+      <h6>Email</h6>
+      <p>abc@gmail.com</p>
+      </div>
+      
+      </div>
+      </div>
+      </main>
+      <br/> <br/> <br/>
+      <Footer></Footer>
     </div>
   );
 };
