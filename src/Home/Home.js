@@ -11,7 +11,7 @@ const Home = () => {
         <main>
             <Common
             // first_name="We help to achieve your goal"
-            last_name = "Tech Solver BD"
+            last_name = "CODERSTAGE"
             work="Your product is our concern. We ensure your best experience with us"
             img ={web}
             visit="/service"
@@ -19,7 +19,9 @@ const Home = () => {
 
             
             ></Common>
+            
             </main>
+            
             <br/>
            <Footer/>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import {NavLink} from "react-router-dom";
-
+import navimg from "../img/11.1.png";
 const Navbar = () => {
   return (
     <div>
@@ -11,7 +11,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/home">
-                  TECH SOLVER BD
+                   <img className="nav-img" src={navimg} alt="nab"/>
                 </NavLink>
                 <button
                   className="navbar-toggler"

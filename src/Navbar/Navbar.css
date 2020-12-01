@@ -23,3 +23,8 @@
 NavLink{
     font-family: 'Poppins', sans-serif;;
 }
+
+.nav-img{
+    height: 80px;
+    width: 250px;
+}
