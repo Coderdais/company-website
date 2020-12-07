@@ -28,12 +28,12 @@ p{
 }
 
 .company-details{
-    border: 5px solid rgb(31, 1, 1);
+    border: 2px solid rgb(31, 1, 1);
     background-color: rgb(241, 207, 207);
 }
 
 .product-details{
-    border: 5px solid rgb(31, 1, 1);
+    border: 2px solid rgb(31, 1, 1);
     background-color: rgb(222, 227, 233);
     
 }

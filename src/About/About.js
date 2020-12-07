@@ -40,14 +40,15 @@ const About = () => {
         <br />
         <div className="row">
             <div className="col-12 col-md-6 col-lg-6">
+            <p className="first">Our </p>
+              <p className="second">Products</p>
+              <br />
+              <br/>
               <img src={saving} alt="saving" />
             </div>
             <div className="col-12 col-md-6 col-lg-6">
-              <p className="first">Our </p>
-              <p className="second">Products</p>
-              <br />
-              <br />
-
+              <br/><br/>
+              
               <p className="product-details  animate__animated animate__backInRight">
                 <h5>Pocket Bank</h5>
                 <h1 style={{ color: "red" }}>Coming Soon..</h1>
