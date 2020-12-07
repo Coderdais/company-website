@@ -11,7 +11,7 @@ const Home = () => {
         <main>
             <Common
             // first_name="We help to achieve your goal"
-            last_name = "CODERSTAGE"
+            last_name = "CODERDAIS"
             work="Your product is our concern. We ensure your best experience with us"
             img ={web}
             visit="/service"

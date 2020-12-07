@@ -1,11 +1,18 @@
 import React from "react";
+import {useEffect} from "react";
 import Footer from "../Footer/Footer";
 import "./About.css";
 import "../../node_modules/animate.css";
 import saving from "../img/saving.svg";
 import learning from "../img/online.svg";
+import WOW from "wow.js";
 
 const About = () => {
+
+  useEffect(()=>{
+    new WOW().init();
+  })
+
   return (
     <div>
       <main className="container">
@@ -15,12 +22,12 @@ const About = () => {
           <br />
           <br />
           <div className="row">
-            <div className="col-8 company-details animate__animated animate__fadeInTopLeft">
+            <div className="col-8 company-details animate__animated wow animate__fadeInTopLeft">
               <p>
-                CoderStage is a startup IT firm in Bangladesh. Our mission is to
+                Coderdais is a startup IT firm in Bangladesh. Our mission is to
                 produce high quality, cost effective, reliable mobile app and
                 web solutions on time. Our young and experienced Professionals
-                are here to reach goals as soon as possible.
+                are here to reach goals as soon as possible. <br/>
               </p>
             </div>
           </div>
@@ -28,8 +35,6 @@ const About = () => {
         <div>
           <br />
           <br />
-
-          
         </div>
         <br /> <br/> 
         <br />
@@ -53,7 +58,7 @@ const About = () => {
           <div className="row">
             <div className="col-12 col-md-6 col-lg-6">
              
-            <p className="product-details">
+            <p className="product-details animate__animated wow animate__backInRight">
             <h5>School Management System </h5>
             <h1 style={{ color: "red" }}>Coming Soon..</h1>
           </p>

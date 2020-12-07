@@ -1,3 +1,14 @@
+nav{
+    background-color: #212529;
+}
+
+ul li .nav-link{
+    color:white !important;
+}
+
+ul li .nav-link:active{
+    color:tomato !important;
+}
 .navbar-brand{
     color:black;
     font-weight: bold;
@@ -10,7 +21,7 @@
 .nav-menu{
     font-size:20px;
     font-family: 'Poppins', sans-serif;
-    color:black;
+    color:white;
     font-weight: bold;
 
 }

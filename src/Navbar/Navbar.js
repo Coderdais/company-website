@@ -1,14 +1,14 @@
 import React from "react";
 import "./Navbar.css";
 import {NavLink} from "react-router-dom";
-import navimg from "../img/11.1.png";
+import navimg from "../img/logo4.3.png";
 const Navbar = () => {
   return (
     <div>
       <div className="container-fluid">
         <div className="row">
           <div className="col col-sm-12 mx-auto">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/home">
                    <img className="nav-img" src={navimg} alt="nab"/>

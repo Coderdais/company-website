@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Footer from "../Footer/Footer";
 import  "./Contact.css";
+import "../../node_modules/animate.css";
+import WOW from "wow.js";
 
 const Contact = () => {
     const [data,setData] = useState({
@@ -10,6 +12,11 @@ const Contact = () => {
         msg: " "
 
     })
+
+    useEffect(()=>{
+      new WOW().init();
+    })
+  
 
     // const inputData = (e) =>{
         
@@ -31,7 +38,7 @@ const Contact = () => {
     }
   return (
     <div>
-    <main className="form">
+    <main className="form  animate__animated wow animate__fadeInRight">
       <div className="my-5">
         <h1 className="text-center"> Contact With US </h1>
       </div>
@@ -105,21 +112,21 @@ const Contact = () => {
       <br/> <br/> 
       <div className="container">
       <div className="row">
-      <div className="col-12 col-md-3 col-lg-3 tag">
+      <div className="col-12 col-md-3 col-lg-3 tag  animate__animated wow animate__bounceInUp">
       <h6>Address</h6>
-      <p>Road No:09 <br/>House No:23 <br/>Nikunja-2</p>
+      <p>Khilkhet <br/>Dhaka-1229</p>
       </div>
       <div className="col-12 col-md-1 col-lg-1"></div>
       <br/>
-      <div className="col-12 col-md-3 col-lg-3 tag">
+      <div className="col-12 col-md-3 col-lg-3 tag  animate__animated wow animate__bounceInUp">
       <h6>Phone</h6>
-      <p>+8801843534307</p>
+      <p>+8801736747981</p>
       </div>
       <div className="col-12 col-md-1 col-lg-1"></div>
       <br/>
-      <div className="col-12 col-md-3 col-lg-3 tag">
+      <div className="col-12 col-md-3 col-lg-3 tag  animate__animated wow animate__bounceInUp">
       <h6>Email</h6>
-      <p>abc@gmail.com</p>
+      <p>info@coderdais.com</p>
       </div>
       
       </div>
