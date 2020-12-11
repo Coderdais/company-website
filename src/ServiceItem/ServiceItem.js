@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./ServiceItem.css";
 import "../../node_modules/animate.css";
 import { useState,useEffect } from "react";

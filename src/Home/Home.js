@@ -4,6 +4,7 @@ import Common from '../Common/Common';
 import Footer from '../Footer/Footer';
 import web from "../img/02.svg";
 import Service from '../Service/Service';
+import Whyus from '../Whyus/Whyus';
 
 const Home = () => {
     return (
@@ -19,7 +20,8 @@ const Home = () => {
 
             
             ></Common>
-            
+            <br/><br/>
+            <Whyus/>
             </main>
             
             <br/>
