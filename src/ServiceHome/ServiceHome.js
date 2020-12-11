@@ -33,7 +33,7 @@ const ServiceHome = () => {
           <div className="col animate__animated wow animate__fadeInTopLeft      text-center header" data-wow-delay="0.6s">
             <div className="service-card">
               <div className="service-holder">
-                <img className="img1" src={app} alt="web" />
+                <img className="img2" src={app} alt="web" />
               </div>
               <h4>Mobile App Development</h4>
             </div>
@@ -41,7 +41,7 @@ const ServiceHome = () => {
           <div className="col animate__animated wow animate__fadeInTopLeft      text-center header" data-wow-delay="0.8s">
             <div className="service-card">
               <div className="service-holder">
-                <img className="img1" src={seo} alt="web" />
+                <img className="img3" src={seo} alt="web" />
               </div>
               <h4>Search engine optimization</h4>
             </div>
