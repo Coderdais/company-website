@@ -112,19 +112,19 @@ const Contact = () => {
       <br/> <br/> 
       <div className="container">
       <div className="row">
-      <div className="col-12 col-md-3 col-lg-3 tag  animate__animated wow animate__bounceInUp">
+      <div className="col-12 col-md-3 col-lg-3 tag  animate__animated wow animate__bounceInUp" wow-data-delay="0.6s">
       <h6>Address</h6>
       <p>Khilkhet <br/>Dhaka-1229</p>
       </div>
       <div className="col-12 col-md-1 col-lg-1"></div>
       <br/>
-      <div className="col-12 col-md-3 col-lg-3 tag  animate__animated wow animate__bounceInUp">
+      <div className="col-12 col-md-3 col-lg-3 tag  animate__animated wow animate__bounceInUp" wow-data-delay="0.8s">
       <h6>Phone</h6>
       <p>+8801736747981</p>
       </div>
       <div className="col-12 col-md-1 col-lg-1"></div>
       <br/>
-      <div className="col-12 col-md-3 col-lg-3 tag  animate__animated wow animate__bounceInUp">
+      <div className="col-12 col-md-3 col-lg-3 tag  animate__animated wow animate__bounceInUp" wow-data-delay="0.10s">
       <h6>Email</h6>
       <p>info@coderdais.com</p>
       </div>

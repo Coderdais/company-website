@@ -24,7 +24,7 @@ const About = () => {
           <div className="row">
             <div className="col-8 company-details animate__animated wow animate__fadeInTopLeft">
               <p>
-                Coderdais is a startup IT firm in Bangladesh. Our mission is to
+                Coderdais Limited is a startup IT firm in Bangladesh. Our mission is to
                 produce high quality, cost effective, reliable mobile app and
                 web solutions on time. Our young and experienced Professionals
                 are here to reach goals as soon as possible. <br/>

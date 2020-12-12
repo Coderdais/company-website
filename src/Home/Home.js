@@ -6,6 +6,7 @@ import web from "../img/02.svg";
 import Service from '../Service/Service';
 import Whyus from '../Whyus/Whyus';
 import ServiceHome from '../ServiceHome/ServiceHome';
+import ProjectCount from '../ProjectCount/ProjectCount';
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
             <br/><br/>
             <Whyus/>
             <ServiceHome/>
+            <ProjectCount/>
             </main>
             
             <br/>

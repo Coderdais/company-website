@@ -1,65 +1,57 @@
 import React from "react";
 import "./Navbar.css";
-import {NavLink} from "react-router-dom";
-import navimg from "../img/logo4.3.png";
+import { NavLink } from "react-router-dom";
+import navimg from "../img/l5.1.png";
+
 const Navbar = () => {
   return (
     <div>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col col-sm-12 mx-auto">
-            <nav className="navbar navbar-expand-lg">
-              <div className="container-fluid">
-                <NavLink className="navbar-brand" to="/home">
-                   <img className="nav-img" src={navimg} alt="nab"/>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
+          <NavLink className="navbar-brand" to="/home">
+            <img className="nav-img" src={navimg} alt="nab" />
+          </NavLink>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav ml-auto mb-2 mb-lg-0 nav-menu">
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link active"
+                  aria-current="page"
+                  to="home"
+                >
+                  Home
                 </NavLink>
-                <button
-                  className="navbar-toggler"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span className="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  className="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
-                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0 nav-menu">
-                    <li className="nav-item">
-                      <NavLink
-                        className="nav-link active"
-                        aria-current="page"
-                        to ="home"
-                      >
-                        Home
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink className="nav-link" to="service">
-                        Services
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink className="nav-link" to="about">
-                        About
-                      </NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink className="nav-link" to="contact">
-                        Contact
-                      </NavLink>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="service">
+                  Services
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="about">
+                  About
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="contact">
+                  Contact
+                </NavLink>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </nav>
     </div>
   );
 };
