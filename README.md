@@ -19,7 +19,7 @@
 
 <b>Illustrations Credit</b>: unDraw
 
-<b>Credit Reserved</b>: Coderdais Limited & Md.AL-amin Sahed
+<b>Credit Reserved</b>: Coderdais Limited & Md.Al-amin Sahed
 
 <b>Live Website</b>: www.coderdais.com
 
